@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+app-movie-list{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+app-movie-list div{
+  width: 18%;
+  text-align: center;
+  background-color: #ededed;
+  box-sizing: border-box;
+}
+app-movie-list img {
+  min-height: 400px;
+  object-fit: cover;
+}
